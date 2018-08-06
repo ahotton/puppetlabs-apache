@@ -1,6 +1,6 @@
 class apache::mod::event (
   $startservers           = '2',
-  $maxclients             = '150',
+  $maxclients             = undef,
   $maxrequestworkers      = undef,
   $minsparethreads        = '25',
   $maxsparethreads        = '75',
